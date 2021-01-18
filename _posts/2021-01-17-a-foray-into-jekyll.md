@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Hello World!"
-date:   2021-01-09 15:00 +1300
+title:  "A Foray into Jekyll"
+date:   2021-01-17 19:00 +1300
 author: Michael
-categories: Meta
+category: Dev
 ---
 So I've been thinking about this for a while, and I've finally decided to go ahead with the idea and start a blog. I'm pretty new to the whole blogging scene, but I'm going to try. :)
 

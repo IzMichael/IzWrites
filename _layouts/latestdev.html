@@ -1,0 +1,20 @@
+---
+layout: dev
+---
+
+<head>
+    <title>IzWrites</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+
+<body>
+    {% for post in site.categories.Dev limit: 1 %}
+    <a class="flex flex-col" href="{{ post.url }}" id="post">
+        <h1 href="{{ post.url }}" class="text-xl font-bold">{{ post.title }}</h1>
+        <p class="text-gray-700 mb-4">By {{ post.author }} - {{ post.categories }}</p>
+        <p>{{ post.excerpt }}</p>
+    </a>
+    {% endfor %}
+</body>
