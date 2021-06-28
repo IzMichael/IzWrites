@@ -19,6 +19,6 @@
 
 <div id="navbar" class="flex flex-col items-center justify-start gap-4 py-2 mb-2 border-b border-gray-400 lg:flex-row">
     {% for tag in site.tags %}
-        <a href="/archives/tag/{{ tag }}">{{ tag }}</a>
+        <a href="/archives/tag/{{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
 </div>
