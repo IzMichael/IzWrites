@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: "–"; /* en dash here */
+    position: absolute;
+    margin-left: -1.1em; 
+}
+
+.markdown-body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.markdown-body h1, .markdown-body h2 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+#post-title, #post-metadata {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#post-metadata {
+    margin-bottom: 16px;
+}
