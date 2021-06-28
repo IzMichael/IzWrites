@@ -7,7 +7,7 @@ So, after a month and a half of working on this, I am proud to announce V2 of Th
 
 ### What's new in V2
 - Completely re-written the web interface
-- Migrated the shops database to a cloud-hosted API
+- Migrated the database to a cloud-hosted API
 - Introduced Locations
 - Added `p!loc` command to the discord bot
 - Added `p!submit` command to the discord bot
@@ -15,5 +15,22 @@ So, after a month and a half of working on this, I am proud to announce V2 of Th
 
 ### So, what's actually changed?
 ##### Completely re-written the web interface
-The Web UI is sporting a brand new, simplistic look
-[]
+The Web UI is sporting a brand new, simplistic look, making it much easier to navigate and use.
+![Screenshot of the new Web UI](/assets/images/pages-new-web-ui.png)
+
+##### Migrated the database to a cloud-hosted API
+The full Phoenix Pages database is now stored on the cloud, which makes adding, editing, and reading the database so much easier.
+
+##### Introduced Locations
+Locations! You can now easily find where in the world a shop is! Along with the standard XYZ coordinates, you can now find the City, District, or Base that the shop is in.
+![Screenshot of the new Locations](/assets/images/pages-new-locations.png)
+
+As part of the new Locations, you can run `p!loc <location>` to get more info about the specified Location.
+![Screenshot of p!loc](/assets/images/pages-location-command.png)
+
+##### Submit and Update Commands
+`p!submit` will send you a DM with the all new submission process!
+![Screenshot of p!submit](/assets/images/pages-submit-command.png)
+
+`p!update` will send you a DM with the instructions to update your shop!
+![Screenshot of p!submit](/assets/images/pages-submit-command.png)
