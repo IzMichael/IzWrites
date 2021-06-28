@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "_posts/2021-06-28-phoenix-pages-revamp.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2021-06-28-phoenix-pages-revamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": false
               }
             }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "_posts/2021-06-28-phoenix-pages-revamp.md"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "29c05547e88d6c7f",
   "lastOpenFiles": [
+    "_posts/2021-06-28-phoenix-pages-revamp.md",
+    "_posts/2021-06-28-hello-world.md",
+    "templates/post-template.md",
+    "templates/{{date}}-TITLE.md",
+    "_posts/Untitled.md",
     "index.md",
     "about.md",
-    "_posts/2021-06-28-hello-world.md",
     "Untitled.md",
     "school/timetable.md",
-    "general/medical-profile.md",
-    "general/packing-list.md",
-    "general/morse-code.md",
-    "general/Untitled.md",
-    "school/sci-science/chemistry/ions.md"
+    "general/medical-profile.md"
   ]
 }

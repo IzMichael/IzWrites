@@ -1,6 +1,6 @@
 ---
-tag: meta
-category: blog
+tag: Meta
+category: Blog
 title: Hello World!
 ---
 So I’ve been thinking about this for a while, and I’ve finally decided to go ahead with the idea and start a blog. I’m pretty new to the whole blogging scene, but I’m going to try. :)
