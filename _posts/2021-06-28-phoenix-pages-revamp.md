@@ -6,17 +6,16 @@ title: The Great Revamp!
 So, after a month and a half of working on this, I am proud to announce V2 of The Phoenix Pages!
 
 ### What's new in V2
-- Completely re-written the web interface
+- Retired the Web UI
 - Migrated the database to a cloud-hosted API
 - Introduced Locations
-- Added `p!loc` command to the discord bot
-- Added `p!submit` command to the discord bot
-- Added `p!update` command to the discord bot
+- Added `p!loc` command to the Discord Bot
+- Added `p!submit` command to the Discord Bot
+- Added `p!update` command to the Discord Bot
 
 ### So, what's actually changed?
-##### Completely re-written the web interface
-The Web UI is sporting a brand new, simplistic look, making it much easier to navigate and use.
-![Screenshot of the new Web UI](/assets/images/pages-new-web-ui.png)
+##### Retired the Web UI
+With the recent introduction of the Discord Bot, I've decided to retire the [Web UI](https://phoenix-pages.izmichael.xyz/). It was the original form of The Phoenix Pages, and I'll miss it. I may bring it back at some point, but I just don't have the time to continuously maintain it. All of its features have migrated to the Discord Bot.
 
 ##### Migrated the database to a cloud-hosted API
 The full Phoenix Pages database is now stored on the cloud, which makes adding, editing, and reading the database so much easier.
@@ -32,5 +31,5 @@ As part of the new Locations, you can run `p!loc <location>` to get more info ab
 `p!submit` will send you a DM with the all new submission process!
 ![Screenshot of p!submit](/assets/images/pages-submit-command.png)
 
-`p!update` will send you a DM with the instructions to update your shop!
-![Screenshot of p!submit](/assets/images/pages-submit-command.png)
+`p!update` will send you a DM with the instructions to update your shop's info.
+![Screenshot of p!update](/assets/images/pages-update-command.png)
