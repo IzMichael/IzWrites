@@ -1,4 +1,5 @@
 ---
+layout: post
 tag: Meta
 category: Blog
 title: Hello World!

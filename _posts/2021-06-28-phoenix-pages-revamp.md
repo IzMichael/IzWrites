@@ -1,4 +1,5 @@
 ---
+layout: post
 tag: The-Phoenix-Pages
 category: DevLogs
 title: The Great Revamp!
