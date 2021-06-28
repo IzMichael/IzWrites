@@ -33,3 +33,6 @@ As part of the new Locations, you can run `p!loc <location>` to get more info ab
 
 `p!update` will send you a DM with the instructions to update your shop's info.
 ![Screenshot of p!update](/assets/images/pages-update-command.png)
+
+### And that's it!
+That's all the features for V2. If you've got any bug reports or feature suggestions, please DM the bot (@The Phoenix Pages#2209). Happy Shopping
