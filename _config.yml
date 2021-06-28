@@ -1,0 +1,52 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: IzWrites
+tagline: A Blog by IzMichael
+email: michael@izmichael.xyz
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello, my name is Michael. I'm a freelance web developer based in New Zealand. I'm originally from the UK, but moved in
+  2012. I enjoy all things tech, and I like reading, Minecraft, and trains.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.izmichael.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: IzMichael7
+github_username: IzMichael
+
+timezone: Pacific/Auckland
+
+# Build settings
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-archives
+
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- .obsidian/
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    category: tag-category-archive
+    tag: tag-category-archive
+  permalinks:
+    year: 'archives/:year/'
+    month: 'archives/:year/:month/'
+    day: 'archives/:year/:month/:day/'
+    tag: 'archives/tag/:name/'
+    category: 'archives/category/:name/'

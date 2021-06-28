@@ -1,0 +1,1 @@
+{"includeFirstLineAsNoteHeading":false,"excludeFirstLineInNote":false,"headingFormat":"#","newFileLocation":1,"customFolder":"","fileNamePrefix":"","transcludeByDefault":false,"noteLinkTemplate":"-\n###### Split into ➜ [[{{new_note_title}}]]\n-","refactoredNoteTemplate":"###### This note is part of [[{{title}}]].\n-\n{{new_note_content}}"}

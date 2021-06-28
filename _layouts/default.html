@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/tailwind2.css">
+        <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+    </head>
+
+    <body class="w-full px-5 lg:w-1/2 lg:mx-auto lg:p-0">
+        {% include header.html %}
+        <div id="pageContainer" class="my-10">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </body>
+
+</html>

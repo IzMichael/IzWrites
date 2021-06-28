@@ -1,0 +1,24 @@
+<div class="flex flex-col items-center justify-between py-5 border-b border-gray-400 lg:flex-row">
+    <h1 class="flex-1 text-4xl font-bold text-left">{{ site.title }}</h1>
+    <h2 class="flex-1 text-3xl text-right">{{ site.tagline }}</h2>
+</div>
+
+<div id="navbar" class="flex flex-col items-center justify-between py-2 border-b border-gray-400 lg:flex-row">
+    <div id="pages" class="flex flex-col items-center justify-start lg:gap-4 gap-1 lg:flex-row">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/archives/category/blog/">Blog</a>
+        <a href="/archives/category/devlogs/">DevLogs</a>
+    </div>
+    <div id="socials" class="flex flex-row items-center justify-center gap-4 lg:justify-end">
+        <a href="https://twitter.com/IzMichael7">T</a>
+        <a href="https://github.com/IzMichael">G</a>
+        <a href="https://izmichael.xyz">W</a>
+    </div>
+</div>
+
+<div id="navbar" class="flex flex-col items-center justify-start gap-4 py-2 mb-2 border-b border-gray-400 lg:flex-row">
+    {% for tag in site.tags %}
+        <a href="/archives/tag/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+</div>

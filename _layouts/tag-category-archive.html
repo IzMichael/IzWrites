@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1 class="text-3xl mb-3">Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+
+<ul class="posts">
+    {% for post in page.posts %}
+        {% include post-card.html %}
+    {% endfor %}
+</ul>
